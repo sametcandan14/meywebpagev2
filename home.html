@@ -1,80 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mehmed Emre Yıldız - Home</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0955a1b445.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="/js/script.js"></script>
-</head>
+  </head>
 
-<body class="orange">
+  <body class="orange">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong" style="font-size: x-large; margin-right: 5rem;">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse align-items-end" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mx-2 mb-lg-0 d-flex"
-                    style="min-width: 60%; justify-content: space-between;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about-me.html">About ME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/gallery.html">Gallery</a>
-                    </li>
-                </ul>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow-5-strong"
+      style="font-size: x-large; margin-right: 5rem"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler m-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars fa-xl py-3"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse align-items-end ms-2"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav ms-auto mx-2 mb-lg-0 d-flex"
+            style="min-width: 60%; justify-content: space-between"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-me.html">About ME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery.html">Gallery</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <div class="container-fluid">
-        <img src="/img/photo.png" style="max-height: 80vh; position: absolute; bottom: 0;">
-        <img src="/img/home-text.png" style="max-height: 70vh; position: absolute; left: 20%; bottom: 30%; max-width: 70vw; z-index: -1;">
-        <a href="/index.html">
-            <img src="/img/whoami-transparent.png" style="max-height: 10vw; position: absolute; right: 1%; top: 10%;">
-        </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5 col-lg-6 d-none d-md-block">
+          <img src="/img/photo.png" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-6 col-md-7" style="padding-top: 20vh">
+          <img src="/img/home-text.png" class="img-fluid" />
+        </div>
+      </div>
     </div>
-    <div class="d-flex justify-content-center bottom" style="position: absolute; bottom: 0; left: 35%;">
-        <div class="m-2 p-3 logo">
-            <a href="https://www.facebook.com/meyildiz94/" target="_blank">
-                <img src="/img/icons/facebook.png">
-            </a>
-        </div>
-        <div class="m-2 p-3 logo">            
-            <a href="https://www.instagram.com/meyildiz_" target="_blank">
-                <img src="/img/icons/instagram.png">
-            </a>
-        </div>
-        <div class="m-2 p-3 logo">
-            <a href="https://twitter.com/yildizme_" target="_blank">
-                <img src="/img/icons/twitter.png">
-            </a>
-        </div>
-        <div class="m-2 p-3 logo">
-            <a href="https://www.linkedin.com/in/meyildiz94/" target="_blank">
-                <img src="/img/icons/linkedin.png">
-            </a>
-        </div>
-        <div class="m-2 p-3 logo">
-            <a href="https://www.behance.net/emreyildiz11" target="_blank">
-                <img src="/img/icons/behance.png">
-            </a>
-        </div>
+
+    <div style="position: absolute; right: 1%; top: 10%">
+      <a href="/index.html">
+        <img src="/img/whoami-transparent.png" style="max-height: 10vw" />
+      </a>
+    </div>
+    <div class="d-flex justify-content-center align-items-center contact-logos">
+      <div class="m-2 p-3 logo">
+        <a href="https://www.facebook.com/meyildiz94/" target="_blank">
+          <img src="/img/icons/facebook.png" />
+        </a>
+      </div>
+      <div class="m-2 p-3 logo">
+        <a href="https://www.instagram.com/meyildiz_" target="_blank">
+          <img src="/img/icons/instagram.png" />
+        </a>
+      </div>
+      <div class="m-2 p-3 logo">
+        <a href="https://twitter.com/yildizme_" target="_blank">
+          <img src="/img/icons/twitter.png" />
+        </a>
+      </div>
+      <div class="m-2 p-3 logo">
+        <a href="https://www.linkedin.com/in/meyildiz94/" target="_blank">
+          <img src="/img/icons/linkedin.png" />
+        </a>
+      </div>
+      <div class="m-2 p-3 logo">
+        <a href="https://www.behance.net/emreyildiz11" target="_blank">
+          <img src="/img/icons/behance.png" />
+        </a>
+      </div>
     </div>
     <!-- Navbar -->
     <script src="/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>

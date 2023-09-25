@@ -34,6 +34,37 @@ body {
 .orange {
   background: fixed;
   background: linear-gradient(233deg, #ff8900 0%, #e24027 100%);
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+.person-photo {
+  position: absolute;
+  top: 20vh;
+  left: -2.8rem;
+}
+
+.person-photo img {
+  width: 380px;
+  height: auto;
+}
+
+.home-texts {
+  margin-top: 5rem;
+}
+
+.designer-text {
+  font-size: 4rem;
+  text-shadow: -20px -20px 50px #ff8900, 20px -20px 50px #ff8900,
+    20px 20px 50px #ff8900, -20px 20px 50px #ff8900;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
 }
 
 .link-white {
@@ -80,6 +111,9 @@ body {
   .contact-logos {
     transform: translateX(50%);
   }
+  .person-photo {
+    display: none !important;
+  }
 }
 
 @media (max-width: 425px) {
@@ -87,8 +121,10 @@ body {
     width: 20px;
     height: 20px;
   }
-  .mid-logos, .whoami-home  {
-    display: none!important;
+  .mid-logos,
+  .whoami-home,
+  .person-photo {
+    display: none !important;
   }
 }
 .whoami-home {
